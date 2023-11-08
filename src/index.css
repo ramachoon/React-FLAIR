@@ -1,0 +1,362 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* @font-face {
+  font-family: 'SF Pro';
+  src: url(./assets/fonts/SFPRODISPLAYREGULAR.OTF);
+} */
+
+@font-face {
+  font-family: 'SF-Pro-Display-Black';
+  src: url(./assets/fonts/SF-Pro-Display-Black.otf);
+}
+
+@font-face {
+  font-family: 'SF-Pro-Display-BlackItalic';
+  src: url(./assets/fonts/SF-Pro-Display-BlackItalic.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Display-Bold';
+  src: url(./assets/fonts/SF-Pro-Display-Bold.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Display-BoldItalic';
+  src: url(./assets/fonts/SF-Pro-Display-BoldItalic.otf);
+}
+
+
+
+
+@font-face {
+  font-family: 'SF-Pro-Display-Heavy';
+  src: url(./assets/fonts/SF-Pro-Display-Heavy.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Display-HeavyItalic';
+  src: url(./assets/fonts/SF-Pro-Display-HeavyItalic.otf);
+}
+
+@font-face {
+  font-family: 'SF-Pro-Display-Light';
+  src: url(./assets/fonts/SF-Pro-Display-Light.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Display-Medium';
+  src: url(./assets/fonts/SF-Pro-Display-Medium.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Display-MediumItalic';
+  src: url(./assets/fonts/SF-Pro-Display-MediumItalic.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Display-Regular';
+  src: url(./assets/fonts/SF-Pro-Display-Regular.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Display-RegularItalic';
+  src: url(./assets/fonts/SF-Pro-Display-RegularItalic.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Display-Semibold';
+  src: url(./assets/fonts/SF-Pro-Display-Semibold.otf);
+  
+}
+@font-face {
+  font-family: 'SF-Pro-Display-SemiboldItalic';
+  src: url(./assets/fonts/SF-Pro-Display-SemiboldItalic.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Display-Thin';
+  src: url(./assets/fonts/SF-Pro-Display-Thin.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Display-ThinItalic';
+  src: url(./assets/fonts/SF-Pro-Display-ThinItalic.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Display-Ultralight';
+  src: url(./assets/fonts/SF-Pro-Display-Ultralight.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Display-UltralightItalic';
+  src: url(./assets/fonts/SF-Pro-Display-UltralightItalic.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Text-Bold';
+  src: url(./assets/fonts/SF-Pro-Text-Bold.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Text-BoldItalic';
+  src: url(./assets/fonts/SF-Pro-Text-BoldItalic.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Text-Light';
+  src: url(./assets/fonts/SF-Pro-Text-Light.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Text-LightItalic';
+  src: url(./assets/fonts/SF-Pro-Text-LightItalic.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Text-Medium';
+  src: url(./assets/fonts/SF-Pro-Text-Medium.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Display-MediumItalic';
+  src: url(./assets/fonts/SF-Pro-Display-MediumItalic.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Text-Regular';
+  src: url(./assets/fonts/SF-Pro-Text-Regular.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Display-RegularItalic';
+  src: url(./assets/fonts/SF-Pro-Display-RegularItalic.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Display-Semibold';
+  src: url(./assets/fonts/SF-Pro-Display-Semibold.otf);
+}
+@font-face {
+  font-family: 'SF-Pro-Text-SemiboldItalic';
+  src: url(./assets/fonts/SF-Pro-Text-SemiboldItalic.otf);
+}
+
+@font-face {
+  font-family: 'SF-Pro-Text-Semibold';
+
+  src: url(./assets/fonts/SF-Pro-Text-Semibold.otf);
+}
+
+
+
+
+
+
+
+
+@layer base {
+  :root {
+    --foreground: #1642C5;
+    --darkblue: #1F293C;
+    --background: #fff;
+    --lightgray:#F5F5F5;
+    --gray:#87888D;
+    --subtitle:#F5F5F5;
+    --lightgray:#F0F0F0;
+    --shadowclr:gray;
+    --btntxtclr:#fff;
+    --btnclr:#1642C5;
+    --contentBackground:#fff;
+    --cardColor:#EFF1F5;
+    --accentColor:#E0E9F1;
+    --mainTextColor:#1A1D25;
+    --secondaryTxtColor:#8C9CBB;
+    --logoColor:#01A3FF;
+  }
+}
+.theme-Seaside {
+  --foreground: #1642C5;
+  --darkblue: #1F293C;
+  --background: #fff;
+  --txtcolor:black;
+  --lightgray:#F0F0F0;
+  --gray:#87888D;
+  --shadowclr:gray;
+  --btnclr:#1642C5;
+  --btntxtclr:#fff;
+    --contentBackground:#fff;
+    --cardColor:#EFF1F5;
+    --accentColor:#E0E9F1;
+    --mainTextColor:#1A1D25;
+    --secondaryTxtColor:#8C9CBB;
+  
+}
+.theme-Glacier {
+  --foreground: #1642C5;
+  --darkblue: #1F293C;
+  --background: #ffffff;
+  --txtcolor:black;
+  --lightgray:#F0F0F0;
+  --gray:#87888D;
+  --shadowclr:gray;
+  --btntxtclr:#fff;
+  --btnclr:#01A3FF;
+    --contentBackground:#fff;
+    --cardColor:#EFF1F5;
+    --accentColor:#EBF8FF;
+    --mainTextColor:#1A1D25;
+    --secondaryTxtColor:#8C9CBB;
+  
+}
+.theme-Arctic {
+  --foreground: #1642C5;
+  --darkblue: #1F293C;
+  --background: #f3f3f3;
+  --txtcolor:black;
+  --lightgray:#F0F0F0;
+  --gray:#87888D;
+  --shadowclr:gray;
+  --btntxtclr:#fff;
+  --btnclr:#041AB1;
+    --contentBackground:#F8F8F8;
+    --cardColor:#fff;
+    --accentColor:#CCEDFF;
+    --mainTextColor:#1A1D25;
+    --secondaryTxtColor:#8C9CBB;
+  
+  
+}
+.theme-Moonlit {
+  --foreground: #1642C5;
+  --darkblue: #1F293C;
+  --background: #effbff;
+  --txtcolor:black;
+  --lightgray:#F0F0F0;
+  --gray:#87888D;
+  --shadowclr:gray;
+  --btntxtclr:#fff;
+  --btnclr:#505050;
+    --contentBackground:#EFFBFF;
+    --cardColor:#FFFFFF;
+    --accentColor:#B2AEAE;
+    --mainTextColor:#1A1D25;
+    --secondaryTxtColor:#8C9CBB;
+  
+}
+.theme-Olive {
+  
+  --foreground: #1642C5;
+  --darkblue: #1F293C;
+  --background: #f2f1ed;
+  --txtcolor:black;
+  --lightgray:#F0F0F0;
+  --gray:#87888D;
+  --shadowclr:gray;
+  --btntxtclr:#fff;
+  --btnclr:#133c3B;
+    --contentBackground:#FBFAF7;
+    --cardColor:#FFFFFF;
+    --accentColor:#BBD3D3;
+    --mainTextColor:#1A1D25;
+    --secondaryTxtColor:#8C9CBB;
+  
+  
+}
+.theme-Granite {
+  --foreground: #1642C5;
+  --darkblue: #1F293C;
+  --background: #292929;
+  --txtcolor:#fff;
+  --shadowclr:white;
+  --btntxtclr:black;
+  --btnclr:#ffffff;
+  --lightgray:#F0F0F0;
+  --gray:#87888D;
+  --contentBackground:#292929;
+  --cardColor:#3e3e3e;
+  --accentColor:#696969;
+  --mainTextColor:#696969;
+  --secondaryTxtColor:#8C9CBB;
+  --logoColor:#1B344F;
+}
+.theme-Moss {
+  --foreground: #1642C5;
+  --darkblue: #1F293C;
+  --background: #292929;
+  --txtcolor:#fff;
+  --shadowclr:white;
+  --lightgray:#F0F0F0;
+  --btnclr:#13846F;
+  --gray:#87888D;
+  --contentBackground:#292929;
+  --cardColor:#3e3e3e;
+  --accentColor:#22443e;
+  --mainTextColor:#ffffff;
+  --secondaryTxtColor:#8C9CBB;
+  --logoColor:#1B344F;
+
+}
+.theme-Nightfall {
+  --foreground: #1642C5;
+  --darkblue: #1F293C;
+  --background: #292929;
+  --txtcolor:#fff;
+  --shadowclr:white;
+  --lightgray:#F0F0F0;
+  --btnclr:#01a3ff;
+  --gray:#87888D;
+  --contentBackground:#292929;
+  --cardColor:#3e3e3e;
+  --accentColor:#CCEDFF;
+  --mainTextColor:#ffffff;
+  --secondaryTxtColor:#8C9CBB;
+  --logoColor:#1B344F;
+}
+.theme-Amber {
+  --foreground: #1642C5;
+  --darkblue: #1F293C;
+  --background: #3d4552;
+  --txtcolor:#fff;
+  --shadowclr:white;
+  --lightgray:#F0F0F0;
+  --btnclr:#ff7b01;
+  --gray:#87888D;
+  --contentBackground:#3d4552;
+  --cardColor:#161718;
+  --accentColor:#ffcb9a;
+  --mainTextColor:#ffffff;
+  --secondaryTxtColor:#8C9CBB;
+  --logoColor:#1B344F;
+}
+.theme-Blush {
+  --foreground: #1642C5;
+  --darkblue: #1F293C;
+  --background: black;
+  --txtcolor:white;
+  --shadowclr:white;
+  --lightgray:#F0F0F0;
+  --btnclr:#f5a8f6;
+  --gray:#87888D;
+  --contentBackground:black;
+  --cardColor:#2e2d2e;
+  --accentColor:#3e3e3e;
+  --mainTextColor:#ffffff;
+  --secondaryTxtColor:#8C9CBB;
+  --logoColor:#1B344F;
+}
+
+body {
+  margin: 0;
+  font-family:'SF-Pro-Text-Regular';
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--contentBackground);
+  outline: none;
+}
+
+html,body {
+  height: '100%';
+  }
+  
+input{
+  outline: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+label:hover{
+  box-shadow: none !important;
+}

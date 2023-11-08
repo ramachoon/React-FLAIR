@@ -1,0 +1,43 @@
+
+  
+  /* Custom layout */
+  /* .custom-layout .react-colorful {
+    padding: 12px;
+    border-radius: 8px;
+    background: #ffff;
+    box-shadow: 0 6px 12px #999;
+  } */
+  
+  .custom-layout .react-colorful__saturation {
+    border-radius: 4px;
+    border-bottom: none;
+  }
+  
+  .custom-layout .react-colorful__hue {
+    /* order: -1; */
+    margin: 1rem 0;
+    height: 10px !important;
+  }
+  
+  .custom-layout .react-colorful__hue-pointer, .custom-layout .react-colorful__alpha-pointer {
+    width: 10px !important;
+    height: 10px !important;
+  }
+  .react-colorful > .react-colorful__saturation >.react-colorful__pointer, .react-colorful__saturation-pointer{
+    visibility: hidden;
+  }
+  .react-colorful__alpha, .react-colorful__last-control{
+    height: 9px !important;
+  }
+  .custom-layout .react-colorful__hue,
+  .custom-layout .react-colorful__alpha {
+    height: 14px;
+    border-radius: 5px;
+  }
+  
+  .custom-layout .react-colorful__hue-pointer,
+  .custom-layout .react-colorful__alpha-pointer {
+    width: 20px;
+    height: 20px;
+  }
+  

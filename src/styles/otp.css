@@ -1,0 +1,55 @@
+.btnContinue:hover{
+   background-color: #174a81  !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.imgupload {
+  display: none;
+}
+
+input::-webkit-color-swatch {
+  border: none;
+}
+input[type="color"] {
+  -webkit-appearance: none;
+  border: none;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+}
+input[type="color"]
+{
+border-radius:100px;
+background:none;
+}
+.upload-btn {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 20px;
+  width: 10rem;
+  height: 3rem;
+  color: white;
+  background-color: green;
+}
+
+label:hover,
+.upload-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
